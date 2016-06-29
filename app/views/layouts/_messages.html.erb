@@ -1,0 +1,4 @@
+
+<%= content_tag(:div, flash[:alert], :class => "row") if flash[:alert] %>
+<%= content_tag(:div, flash[:notice], :class => "row") if flash[:notice] %>
+<%= content_tag(:div, flash[:error], :class => "row") if flash[:error] %>
